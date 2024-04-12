@@ -10,6 +10,7 @@ const MenuCategoryList = () => {
             href="/blog?cat=style"
             className={styles.categoryItem}
             style={{ backgroundColor: `${data.bgColor}` }}
+            key={data.id}
           >
             {data.catName}
           </Link>
